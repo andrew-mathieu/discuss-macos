@@ -8,5 +8,5 @@ git commit -am "$message"
 break
 git push --force
 clear
-echo "\nSent!"
+echo "\n\n\nSent!\n\n\n"
 sleep 1
