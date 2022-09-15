@@ -8,4 +8,4 @@ git commit -am $message
 git push --force
 clear
 echo "Sent!"
-sleep 5
+sleep 2
