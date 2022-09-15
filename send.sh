@@ -3,8 +3,9 @@ echo "\nDISCUSS FOR UNIX (macOS & Linux) ———— by @devgirl-team (on GitHu
 echo $RANDOM >modifier.txt
 git add modifier.txt
 echo "\nEnter your message:"
-read message
+read message do
 git commit -am "$message"
+break
 git push --force
 clear
 echo "Sent!"
