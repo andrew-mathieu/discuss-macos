@@ -1,6 +1,5 @@
 #!/bin/sh
-echo off
-echo "$RANDOM" > modifier.txt
+echo $RANDOM>modifier.txt
 git add modifier.txt
 read message
 git commit -am $message
