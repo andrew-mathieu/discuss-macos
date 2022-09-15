@@ -32,14 +32,14 @@ cd discuss-macos
 ```bash
 sh create.sh
 
-# **DISCUSS FOR UNIX (macOS & Linux) ———— by @devgirl-team (on GitHub)**
+# DISCUSS FOR UNIX (macOS & Linux) ———— by @devgirl-team (on GitHub)
 
-*Enter a channel name:*
-**myChannel** *# Spaces in names aren't allowed*
+Enter a channel name:
+myChannel # Spaces in names aren't allowed*
 
 Your channel name is now "myChannel"
 
-*# Now, your channel has been created and it has switched to it*
+# Now, your channel has been created and it has switched to it
 ```
 
 ### Commandes
