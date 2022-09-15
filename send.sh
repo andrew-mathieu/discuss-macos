@@ -7,6 +7,5 @@ read message do
 git commit -am "$message"
 break
 git push --force
-clear
 echo "Sent!"
 sleep 1
