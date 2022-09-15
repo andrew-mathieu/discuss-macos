@@ -1,6 +1,6 @@
 #!/bin/sh
 echo "\nDISCUSS FOR UNIX (macOS & Linux) ———— by @devgirl-team (on GitHub) \n"
-echo $RANDOM>modifier.txt
+echo $RANDOM >modifier.txt
 git add modifier.txt
 echo "\nEnter your message:"
 read message
