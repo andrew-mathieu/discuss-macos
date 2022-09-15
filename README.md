@@ -1,5 +1,3 @@
-# DISCUSS for macOS & Linux
-
 ## 🇫🇷 FR
 
 **“DISCUSS”** est un projet initialement proposé par [@shapaness](http://github.com/shapaness) pour la [@devgirl-team](https://github.com/DevGirl-Team).
@@ -29,17 +27,87 @@ cd discuss-macos
 
 ### Exemple
 
+### Créer un nouveau salon
+
 ```bash
 sh create.sh
 
 # DISCUSS FOR UNIX (macOS & Linux) ———— by @devgirl-team (on GitHub)
 
 Enter a channel name:
-myChannel # Spaces in names aren't allowed*
+myChannel # Spaces in names aren't allowed
 
 Your channel name is now "myChannel"
 
 # Now, your channel has been created and it has switched to it
+```
+
+### Accéder à un salon
+
+```bash
+sh join.sh
+
+# DISCUSS FOR UNIX (macOS & Linux) ———— by @devgirl-team (on GitHub)
+
+What channel would you like to join ?
+general
+
+Switched now to "general"
+
+# Done!
+```
+
+### Revenir au salon principal
+
+```bash
+sh leave.sh
+
+# DISCUSS FOR UNIX (macOS & Linux) ———— by @devgirl-team (on GitHub)
+
+Switched to "main"
+```
+
+### Faire un commit
+
+```bash
+sh send.sh
+
+# DISCUSS FOR UNIX (macOS & Linux) ———— by @devgirl-team (on GitHub)
+
+Say:
+<your message>
+```
+
+### Voir le dernier commit
+
+```bash
+sh show.sh
+
+# DISCUSS FOR UNIX (macOS & Linux) ———— by @devgirl-team (on GitHub)
+
+Last commit:
+
+bonjour
+```
+
+### Voir les derniers commits (en continu)
+
+Le paquet “_watch_” est requis.
+
+```bash
+sh watch.sh
+
+# DISCUSS FOR UNIX (macOS & Linux) ———— by @devgirl-team (on GitHub)
+
+Refreshing every 5s…
+
+Last commit:
+
+- lorem
+- ipsum
+- dolor
+- sit
+- amet
 ```
 
 ### Commandes
